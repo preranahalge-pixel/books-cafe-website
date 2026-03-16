@@ -1,0 +1,405 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+body{
+    font-family:'Segoe UI', sans-serif;
+    background-color: #efebe9;
+    color:#3e2723
+}
+
+/* Navbar */
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 50px;
+    background-color:#3e2723;
+}
+
+/* Logo */
+.logo{
+    color:#fff;
+    font-size:28px;
+    font-weight:600;
+    font-family: 'Brush Script MT', cursive;
+    letter-spacing:1px;
+}
+
+/* Hamburger Icon */
+.hamburger{
+    display:none;
+    font-size:28px;
+    color:white;
+    cursor:pointer;
+}
+
+/* Nav Links Container */
+.nav-links{
+    list-style:none;
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+/* Links */
+.nav-links a{
+    text-decoration:none;
+    color:#fff;
+    font-size:16px;
+    font-weight:500;
+    transition:0.3s;
+}
+
+/* Hover effect */
+.nav-links a:hover{
+    color:#d7ccc8;
+}
+
+/* Welcome text */
+.welcome-text{
+    color:#fff;
+    font-size:15px;
+    font-weight:500;
+}
+
+/* Logout button style */
+.nav-links li:last-child a{
+    padding:6px 14px;
+    border:1px solid #fff;
+    border-radius:5px;
+}
+
+.nav-links li:last-child a:hover{
+    background:#fff;
+    color:#3e2723;
+}
+
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    background: url("https://suddencoffee.com/wp-content/uploads/2024/02/Coffee-and-Books.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.menu-hero {
+    height: 60vh;
+    background: url("https://fthmb.tqn.com/w8H_at2_KzYmmumbJq4LndAgaD0=/3264x2005/filters:fill(auto,1)/coffee-croissant-twenty20_698e38b4-beeb-432b-81a2-cc65e08dc77c-58e5b0e65f9b58ef7e06165e.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.books-hero {
+    height: 60vh;
+    background: url("https://getwallpapers.com/wallpaper/full/e/2/c/165907.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+.booking-hero {
+    height: 60vh;
+    background: url("https://www.comfortfurniture.com.sg/blog/wp-content/uploads/2022/09/delicatesse-strap-booth-comfort-furniture.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.booking-container {
+    display: flex;
+    flex-direction:column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+.box{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    width:100%;
+    max-width:350px;
+}
+
+.box input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.box button{
+    width: 100%;
+    padding: 10px;
+    background: #3e2723;;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.contact-hero {
+    height: 60vh;
+    background: url("https://storage.googleapis.com/edkl-production-storage/store/postimage/37953/image/[:original%2C%20:original]-09c22bea67ea3ef5b2a0fb6d3721ef3b.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.contact-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.contact-form,
+.contact-info {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width:100%;
+    max-width:350px;
+}
+
+.contact-form h2,
+.contact-info h2 {
+    margin-bottom: 20px;
+    color: #3e2723;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    color: #6d4c41;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #6d4c41;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #4e342e;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.about-hero {
+    height: 60vh;
+    background: url("https://cdn.pixabay.com/photo/2024/08/15/05/44/cafe-8970258_960_720.png") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.about-text {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.category-bg {
+    background-color: #efebe9;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* .btn a{
+    padding: 10px 20px;
+    border: none;
+    background-color: #6d4c41;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn a:hover {
+    background-color: #4e342e;
+} */
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6d4c41;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #4e342e;
+}
+
+/* Sections */
+.section {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #3e2723;
+}
+
+/* Cards */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    color: #3e2723;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    width:100%;
+    max-width:250px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: #47322b;
+    margin: 15px 0 5px;
+    
+}
+
+.card p {
+    margin-bottom: 15px;
+    color: #6d4c41;
+}
+
+/* Drinks section background */
+.drinks {
+    background-color: #efebe9;
+}
+
+/* Footer */
+footer {
+    background-color: #3e2723;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+       
+    }
+
+    .hamburger{
+        display:block;
+    }
+
+    /* Hide menu by default */
+    .nav-links{
+        position:absolute;
+        top:70px;
+        right:0;
+        background:#3e2723;
+        width:360px;
+        /* height: 60vh; */
+        flex-direction:column;
+        justify-content: center;
+        /* align-items:center; */
+        gap:15px;
+        padding:40px;
+        display:none;
+        list-style:none;
+    }
+
+        /* Show menu when active */
+    .nav-links.active{
+        display:flex;
+    }
+
+    .section{
+        padding:40px 20px;
+    } 
+   .hero-content h1{
+        font-size:2rem;
+    }   
+
+    .hero-content p{
+        font-size:1rem;
+    }
+}
