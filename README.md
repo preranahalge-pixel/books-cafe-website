@@ -1,2 +1,7 @@
 # books-cafe-website
-Book Cafe Website using PHP and MySQL Public
+A cafe booking system developed using PHP, MySQL, HTML, CSS and JavaScript.
+
+Features:
+- User login and booking
+- Admin dashboard
+- Table reservation
