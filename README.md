@@ -5,3 +5,4 @@ Features:
 - User login and booking
 - Admin dashboard
 - Table reservation
+- Feedback 
